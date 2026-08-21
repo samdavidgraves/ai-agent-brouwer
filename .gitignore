@@ -30,8 +30,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files - nooit committen, behalve het voorbeeldbestand zonder waarden
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +40,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Echte Brouwer-documenten. Horen buiten de repo (../pilot-data/),
+# deze regel is een vangnet als ze er toch in belanden.
+pilot-data/
+*.pilot/
+
+Pilot data/
+pilot data/
+Pilot-data/
+
